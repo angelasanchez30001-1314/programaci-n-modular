@@ -12,13 +12,13 @@ Funcion subtotal <- tomarPedidos(ped)
     Definir precio, subtotal Como Real
     subtotal <- 0
     Repetir
-        Escribir "-- MENÚ --"
+        Escribir "-- MENÃš --"
         Escribir "1. choripollo ($7.000)"
         Escribir "2. pescado ($30.000)"
         Escribir "3. helado ($20.000)"
         Escribir "4. gaseosa ($5.000)"
         Escribir "5. Salir y calcular cuenta"
-        Escribir "Seleccione una opción: "
+        Escribir "Seleccione una opciÃ³n: "
         Leer opcion
         Si opcion <> 5 Entonces
             Escribir "Ingrese la cantidad: "
@@ -36,7 +36,7 @@ Funcion subtotal <- tomarPedidos(ped)
 FinFuncion
 Funcion metodo <- pedirMetodoPago(pag)
     Definir metodo Como Entero
-    Escribir "Ingrese método de pago: 1=Efectivo, 2=Tarjeta, 3=Cheque"
+    Escribir "Ingrese mÃ©todo de pago: 1=Efectivo, 2=Tarjeta, 3=Cheque"
     Leer metodo
 FinFuncion
 Funcion desc_D <- obtenerDescuento(metodo)
