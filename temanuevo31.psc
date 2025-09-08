@@ -19,10 +19,11 @@ Funcion punt_p <- asignar_puntos(resultado, puntos_p)
         "E": punt_p <- punt_p + 1
         "P": punt_p <- punt_p + 0
         De Otro Modo:
-            Escribir "Resultado inválido."
+            Escribir "Resultado invÃ¡lido."
     FinSegun
 FinFuncion
 SubProceso mostrarClasificacion(puntos_p)
-    Escribir "Clasificación actual: ", puntos_p, " puntos."
+    Escribir "ClasificaciÃ³n actual: ", puntos_p, " puntos."
 FinSubProceso
+
 
