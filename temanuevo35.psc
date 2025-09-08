@@ -12,7 +12,7 @@ Algoritmo modular35
             mostrarEstado(pag_Solicitadas, papel_disponible, Falso)
         FinSi
     FinMientras
-    Escribir "La impresora se quedó sin papel"
+    Escribir "La impresora se quedÃ³ sin papel"
 FinAlgoritmo
 Funcion cap_paginas <- pedirCapacidad(capacidad)
     Definir cap_paginas Como Entero
@@ -21,7 +21,7 @@ Funcion cap_paginas <- pedirCapacidad(capacidad)
 FinFuncion
 Funcion paginas <- pedirPaginas(pag)
     Definir paginas Como Entero
-    Escribir "¿Cuántas páginas desea imprimir?"
+    Escribir "Â¿CuÃ¡ntas pÃ¡ginas desea imprimir?"
     Leer paginas
 FinFuncion
 Funcion valido <- verificarImpresion(paginas, papel_disponible)
@@ -38,10 +38,10 @@ Funcion nuevoPapel <- actualizarPapel(papel_disponible, paginas)
 FinFuncion
 SubProceso mostrarEstado(paginas, papel_disponible, exito)
     Si exito Entonces
-        Escribir "Imprimiendo ", paginas, " páginas"
-        Escribir "Impresión completada. Papel restante: ", papel_disponible
+        Escribir "Imprimiendo ", paginas, " pÃ¡ginas"
+        Escribir "ImpresiÃ³n completada. Papel restante: ", papel_disponible
     SiNo
-        Escribir "Error: No hay suficiente papel para imprimir ", paginas, " páginas."
+        Escribir "Error: No hay suficiente papel para imprimir ", paginas, " pÃ¡ginas."
         Escribir "Papel restante: ", papel_disponible
     FinSi
 FinSubProceso
