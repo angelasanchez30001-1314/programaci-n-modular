@@ -10,7 +10,7 @@ Algoritmo modular34
         subtotal <- cal_subtotal(precio, cant_canti)
         total <- total + subtotal
         mostrarSubtotal(subtotal)
-        Escribir "¿Desea agregar otro producto? (Si/No): "
+        Escribir "Â¿Desea agregar otro producto? (Si/No): "
         Leer continuar
     FinMientras
     mostrarTotal(total)
